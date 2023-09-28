@@ -11,20 +11,27 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.derekhan.kokospic002"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.derekhan.kokospic002"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "owner": "derekhan",
+    "extra": {
+      "eas": {
+        "projectId": "00bb17ce-7aee-4c8d-9c6e-db58d4a70b36"
+      }
+    },
+    "scheme": "com.derekhan.kokospic002"
   }
 }
